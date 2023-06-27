@@ -18,7 +18,7 @@ def kontrol_kilo_str():
     deger = kilo_entry.get()
     if not deger.isdigit():
         sonuc_label.config(text="Geçersiz değer girdiniz. Lütfen rakam giriniz")
-        return #
+        return 
 
 
 #Kullanıcıya boyunu sordum ve kullanıcının girdi gireceği bir entry oluşturdum.
